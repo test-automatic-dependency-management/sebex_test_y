@@ -1,7 +1,7 @@
 defmodule SebexTestY.MixProject do
   use Mix.Project
 
-  @version "0.6.0"
+  @version "0.7.0"
 
   def project do
     [
@@ -24,7 +24,7 @@ defmodule SebexTestY.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:sebex_test_x, "~> 0.7.0", organization: "membraneframework_labs"},
+      {:sebex_test_x, "~> 0.8.0", organization: "membraneframework_labs"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
